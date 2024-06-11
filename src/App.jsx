@@ -15,15 +15,11 @@ function App() {
     {
       name: "mew",
     },
-    {
-      name: 21,
-      imgSrc: 20,
-    }
   ];
 
   return (
     <>
-      <PokemonCard pokemon={pokemonList[2]} />
+      <PokemonCard pokemon={pokemonList[0]} />
     </>
   )
 }
